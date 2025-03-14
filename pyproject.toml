@@ -1,0 +1,15 @@
+[project]
+name = "gdrive-research"
+version = "0.1.0"
+description = "A Google Drive research tool using MCP"
+dependencies = [
+    "mcp-python-client",
+    "aiohttp",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto" 
